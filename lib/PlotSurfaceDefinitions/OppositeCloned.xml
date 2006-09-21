@@ -1,0 +1,21 @@
+﻿<!-- ******** experimental ******** -->
+
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<PlotSurface2D>
+
+ <AxisSet rotation="0">
+  
+	<AxisLine Name="MiddleHorizontalLine" orientation="Horizontal" position="20" />
+	<AxisLine name="MiddleVerticalLine" orientation="Vertical" position="50" />
+
+	<Axis name="XAxis" axisLine="MiddleHorizontalLine" physicalMin="0" physicalMax="100">
+	</Axis>
+	
+	<Axis name="YAxis" axisLine="MiddleVerticalLine" physicalMin="0" physicalMax="100">
+	</Axis>
+	
+	
+  </AxisSet>
+  
+</PlotSurface2D>

@@ -1,0 +1,26 @@
+﻿<!-- ******** experimental ******** -->
+
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<PlotSurface2D name="CrossedAxes">
+
+  <AxisSet rotation="0">
+  
+	<AxisLine name="MiddleHorizontalLine" type="X" placement="80" ExtendDirection=-90/>
+	<AxisLine name="MiddleVerticalLine" type="Y" placement="50" ExtendDirection=-90/>
+  
+    <Axis type="X" name="XAxis">
+      <Placement line="MiddleHorizontalLine" PhysicalMin=0 PhysicalMax=100 />
+    </Axis>
+
+	<Axis type="Y" name="YAxis">
+	  <Placement line="MiddleVerticalLine" PhysicalMin=0 PhysicalMax=100 />
+	</Axis>
+   
+    <Axis type="Y" name="YAxis2">
+	  <Placement line="MiddleVerticalLine" PhysicalMin=0 PhysicalMax=100 />
+    </Axis> 
+    
+  </AxisSet>
+    
+</PlotSurface2D>

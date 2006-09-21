@@ -1,0 +1,18 @@
+The first version of NPlot-Gtk was made by Miguel de Icaza, and was 
+a wrapper of NPlot 0.9.8.5.
+
+Now the wrapper of version 0.9.9.2 has just an NPlot upgrade and 
+a few hacks over the work of Miguel (Carlos)
+
+------------------------
+
+This version of NPlot has been extended to support Gtk# on Linux.
+
+The version is based on NPlot 0.9.9.2
+
+To build, type `make'
+
+The Gtk# demo is in lib/mf.exe and lib/test.exe
+
+Notice that you must include in your distirbution not only the .dll
+files, but also the .config files.
